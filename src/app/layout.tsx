@@ -6,9 +6,9 @@ import { ThirdwebProvider } from "thirdweb/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "thirdweb SDK + Next starter",
+  title: "BANANOW BASED NFTs Mint Page",
   description:
-    "Starter template for using thirdweb SDK with Next.js App router",
+    "BANANOW BASED NFTs project is a PFP-generated image of fun bananas, which aims to build a fun, non-intimidating, and supportive community.",
 };
 
 export default function RootLayout({
