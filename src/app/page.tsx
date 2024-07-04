@@ -61,7 +61,7 @@ export default function Home() {
             url: "https://heads.bananow.land",
           }}
         />
-        <div className="flex flex-col items-center mt-4 ">
+        <div className="flex flex-col items-center mt-4">
           {isContractMetadataLoading ? (
             <p>Loading...</p>
           ) : (
@@ -115,6 +115,9 @@ export default function Home() {
           >
              {`Mint NFT (${getPrice(quantity)} ETH)`}
           </TransactionButton>
+        </div>
+        <div className="flex flex-col items-center mt-4">
+          <p className="text-sm mt-2">Please DYOR, and visit and read everything on BANANOW.LAND home page.</p>
         </div>
       </div>
     </main>
