@@ -117,7 +117,7 @@ export default function Home() {
           </TransactionButton>
         </div>
         <div className="flex flex-col items-center mt-4">
-          <p className="text-sm mt-2">Please DYOR, and visit and read everything on <a href="https://bananow.land" target="_blank" title="Home Page of BANANOW.LAND">BANANOW.LAND</a> home page.</p>
+          <p className="text-sm mt-2">Please DYOR, visit and read everything on <a href="https://bananow.land" target="_blank" title="Home Page of BANANOW.LAND">BANANOW.LAND</a> home page.</p>
         </div>
       </div>
     </main>
