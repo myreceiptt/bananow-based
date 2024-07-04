@@ -125,7 +125,7 @@ function Header() {
   return (
     <header className="flex flex-col items-center">
       <h1 className="text-2xl md:text-3xl text-center font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        BANANOW BASED NFTs
+        <a href="https://bananow.land" target="_blank" title="Home Page of BANANOW.LAND">BANANOW.LAND</a>
       </h1>
     </header>
   );
