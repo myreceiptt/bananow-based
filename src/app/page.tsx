@@ -58,7 +58,7 @@ export default function Home() {
           chain={chain}
           appMetadata={{
             name: "BANANOW BASED NFTs Mint Page",
-            url: "https://heads.bananow.land",
+            url: "https://bananownfts.endhonesa.com",
           }}
         />
         <div className="flex flex-col items-center mt-4">
@@ -117,7 +117,7 @@ export default function Home() {
           </TransactionButton>
         </div>
         <div className="flex flex-col items-center mt-4">
-          <p className="text-sm mt-2">Please DYOR, visit and read everything on <a href="https://bananow.land" target="_blank" title="Home Page of BANANOW.LAND">BANANOW.LAND</a> home page.</p>
+          <p className="text-sm mt-2">Please DYOR, visit and read everything on <a href="https://bananow.endhonesa.com" target="_blank" title="Home Page of BANANOW.ENDHONESA.COM">BANANOW.LAND</a> home page.</p>
         </div>
       </div>
     </main>
@@ -128,7 +128,7 @@ function Header() {
   return (
     <header className="flex flex-col items-center">
       <h1 className="text-2xl md:text-3xl text-center font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        <a href="https://bananow.land" target="_blank" title="Home Page of BANANOW.LAND">BANANOW.LAND</a>
+        <a href="https://bananow.endhonesa.com" target="_blank" title="Home Page of BANANOW.ENDHONESA.COM">BANANOW.LAND</a>
       </h1>
     </header>
   );
