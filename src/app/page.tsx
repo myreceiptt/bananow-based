@@ -119,7 +119,7 @@ export default function Home() {
         <div className="flex flex-col items-center mt-4">
           <p className="text-sm mt-2">Go to OpenSea.IO to get BANANOW BASED NFTs from the secondary market. Here is the link: <a href="https://bananow.endhonesa.com/base" target="_blank">BANANOW on OpenSea.IO</a>.</p>
           <p className="text-sm mt-2">Please DYOR, visit and read everything on <a href="https://bananow.endhonesa.com" target="_blank" title="Home Page of BANANOW.ENDHONESA.COM">BANANOW.LAND</a> home page.</p>
-          <p className="text-sm mt-2">The official domain for BANANOW.LAND is BANANOW dot LAND, including all of its subdomains. Prof. NOTA Inc. is responsible for the website's availability, but this does not include the domain's availability. So, Prof. NOTA Inc. provides alternate addresses using some subdomains of ENDHONESA dot COM as our guarantee of website availability.</p>
+          <p className="text-sm mt-2">The official domain for BANANOW.LAND is BANANOW dot LAND, including all of its subdomains. Prof. NOTA Inc. is responsible for the website&apos;s availability, but this does not include the domain&apos;s availability. So, Prof. NOTA Inc. provides alternate addresses using some subdomains of ENDHONESA dot COM as our guarantee of website availability.</p>
           <p className="text-sm mt-2">Stay alert! Beware of scams! Hack them all, ethically!</p>
         </div>
       </div>
