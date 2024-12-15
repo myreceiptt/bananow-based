@@ -93,7 +93,7 @@ export default function Home() {
             >-</button>
             <input
               type="number"
-              value={quantity}
+              value="0"
               onChange={(e) => setQuantity(parseInt(e.target.value))}
               className="w-10 text-center border border-gray-300 rounded-md bg-black text-white"
             />
