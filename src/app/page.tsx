@@ -89,7 +89,7 @@ export default function Home() {
           <div className="flex flex-row items-center justify-center my-4">
             <button
               className="bg-black text-white px-4 py-2 rounded-md mr-4"
-              onClick={() => setQuantity(Math.max(1, quantity - 1))}
+              onClick={() => setQuantity(Math.max(0, quantity - 0))}
             >-</button>
             <input
               type="number"
@@ -99,9 +99,12 @@ export default function Home() {
             />
             <button
               className="bg-black text-white px-4 py-2 rounded-md mr-4"
-              onClick={() => setQuantity(quantity + 1)}
+              onClick={() => setQuantity(quantity + 0)}
             >+</button>
           </div>
+          <h2 className="text-xl font-semibold mt-4">
+                MINTED OUT - SOLD OUT
+              </h2>
           <TransactionButton
             transaction={() => claimTo({
               contract: contract,
