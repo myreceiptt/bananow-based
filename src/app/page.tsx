@@ -105,7 +105,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mt-4">
                 MINTED OUT - SOLD OUT
               </h2>
-          <TransactionButton
+{/*           <TransactionButton
             transaction={() => claimTo({
               contract: contract,
               to: account?.address || "",
@@ -117,7 +117,7 @@ export default function Home() {
             }}
           >
              {`Mint NFT (${getPrice(quantity)} ETH)`}
-          </TransactionButton>
+          </TransactionButton> */}
         </div>
         <div className="flex flex-col items-center mt-4">
           <p className="text-sm mt-2">Go to OpenSea.IO to get BANANOW BASED NFTs from the secondary market. Here is the link: <a href="https://bananow.endhonesa.com/base" target="_blank">BANANOW on OpenSea.IO</a>.</p>
