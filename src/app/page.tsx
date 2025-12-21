@@ -68,14 +68,18 @@ export default function Home() {
             <>
               <MediaRenderer
                 client={client}
-                src={contractMetadata?.image}
+                src={
+                  typeof contractMetadata?.image === "string"
+                    ? contractMetadata.image
+                    : undefined
+                }
                 className="rounded-xl"
               />
               <h2 className="text-xl font-semibold mt-4">
-                {contractMetadata?.name}
+                {typeof contractMetadata?.name === "string" ? contractMetadata.name : ""}
               </h2>
               <p className="text-sm mt-2">
-                {contractMetadata?.description}
+                {typeof contractMetadata?.description === "string" ? contractMetadata.description : ""}
               </p>
             </>
           )}
