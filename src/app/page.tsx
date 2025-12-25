@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { ConnectButton, MediaRenderer, TransactionButton, useActiveAccount, useReadContract } from "thirdweb/react";
+import { inAppWallet, createWallet } from "thirdweb/wallets";
 import thirdwebIcon from "@public/thirdweb.svg";
 import { client } from "./client";
 import { defineChain, getContract, toEther } from "thirdweb";
@@ -14,6 +15,15 @@ import {
   nextTokenIdToMint,
 } from "thirdweb/extensions/erc721";
 import { useState } from "react";
+
+const wallets = [
+  inAppWallet({
+    auth: {
+      options: ["google", "email", "passkey", "apple"],
+    },
+  }),
+];
+
 
 export default function Home() {
   const account = useActiveAccount();
@@ -56,6 +66,7 @@ export default function Home() {
         <ConnectButton
           client={client}
           chain={chain}
+          wallets={wallets}
           appMetadata={{
             name: "BANANOW BASED NFTs Mint Page",
             url: "https://bananownfts.endhonesa.com",
