@@ -69,6 +69,7 @@ export default function Home() {
         <ConnectButton
           client={client}
           chain={chain}
+          connectModal={{ showThirdwebBranding: false, size: "compact" }}
           wallets={wallets}
           appMetadata={{
             name: "BANANOW BASED NFTs Mint Page",
