@@ -22,6 +22,9 @@ const wallets = [
       options: ["google", "email", "passkey", "apple"],
     },
   }),
+  createWallet("com.coinbase.wallet"),
+  createWallet("com.okex.wallet"),
+  createWallet("io.metamask"),
 ];
 
 
