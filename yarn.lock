@@ -5695,10 +5695,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eventemitter3@npm:5.0.1, eventemitter3@npm:^5.0.1":
+"eventemitter3@npm:5.0.1":
   version: 5.0.1
   resolution: "eventemitter3@npm:5.0.1"
   checksum: 10c0/4ba5c00c506e6c786b4d6262cfbce90ddc14c10d4667e5c83ae993c9de88aa856033994dd2b35b83e8dc1170e224e66a319fa80adc4c32adcd2379bbc75da814
+  languageName: node
+  linkType: hard
+
+"eventemitter3@npm:^5.0.1":
+  version: 5.0.3
+  resolution: "eventemitter3@npm:5.0.3"
+  checksum: 10c0/774027471b1c24e25789c05ae0cadeae89222d977cc3704354ed76be5dc8beac78524c05a527defbddf2fff145b261eeadfde7f2508257efe5db451aae2c0556
   languageName: node
   linkType: hard
 
