@@ -4,6 +4,61 @@
 
 ---
 
+## About This Repo
+
+`bananow-based` is the mint page for the BANANOW NFTs on **Base**. This repository provides a production-ready Web3 frontend where collectors can connect a wallet, review the drop, and execute mint/claim transactions against the on-chain contract(s). The primary target chain is Base today, while remaining compatible with migration to any **EVM-compatible** blockchain.
+
+### Purpose & Scope
+
+- Provide a dedicated, user-friendly mint/claim experience for BANANOW on Base.
+- Keep the app focused: wallet connection, eligibility/status display, and mint execution.
+- Maintain production safety and reliable deployments under Evergreen practices.
+
+### Blockchain
+
+- Primary chain: **Base**
+- Compatibility: **EVM-compatible**, with a migration-friendly posture for other EVM chains.
+
+### Technology
+
+- Framework: **Next.js** + **React**
+- Web3 integration: **thirdweb**
+- Styling: **Tailwind CSS**
+- Tooling: **Yarn (modern)**, **ESLint**, **TypeScript**
+- Deployment: **Vercel**
+
+### Local Development
+
+```bash
+yarn install
+```
+
+Set env:
+
+- `CLIENT_ID` (thirdweb client ID)
+
+Run:
+
+```bash
+yarn dev
+```
+
+Optional checks:
+
+```bash
+yarn lint
+yarn build
+```
+
+### How We Maintain Quality
+
+- We follow **Prof. NOTA Evergreen Standard**: safe monthly updates and scheduled quarterly majors, keeping version for Vercel compatibility.
+- We validate changes with audit + lint + build, and document runs under `EVERGREENING/completion-log-*.md`.
+
+---
+
+---
+
 ## Maintenance by Prof. NOTA Evergreen Standard
 
 This repo is intended to stay evergreen while remaining production-safe.
@@ -66,66 +121,3 @@ Examples:
 - Next.js / React major version
 - Tailwind CSS major version
 - Package manager major version
-
----
-
----
-
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
-
-## thirdweb-next-starter
-
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
-
-### Installation
-
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
-
-```bash
-  npx thirdweb create app --next
-```
-
-### Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file:
-
-`CLIENT_ID`
-
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client).
-
-### Run locally
-
-Install dependencies
-
-```bash
-yarn
-```
-
-Start development server
-
-```bash
-yarn dev
-```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn start
-```
-
-### Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-### Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
